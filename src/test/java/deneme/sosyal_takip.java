@@ -33,10 +33,10 @@ public class sosyal_takip  {
         driver.findElement(By.xpath("//*[@class='loginLink']")).click();
 
         WebElement tc = driver.findElement(By.id("tridField"));
-        tc.sendKeys("40553145018");
+        tc.sendKeys("345435345454");
 
         WebElement sifre = driver.findElement(By.id("egpField"));
-        sifre.sendKeys("vesekzeren2936" + Keys.ENTER);
+        sifre.sendKeys("43534543543534" + Keys.ENTER);
 
         WebElement text = driver.findElement(By.xpath("//*[@class='resultTable']/tbody/tr[1]/td[5]"));
         String aileText = text.getText();
@@ -82,13 +82,13 @@ public class sosyal_takip  {
 
     public static void excelleYaz(String bolum, String sayfa, int satir, String data) throws IOException {
 
-        String path = "/Users/ibrahim/Desktop/IT/sorgu_sonuclari.xlsx";
+        String path = "/Users/ibrahimvesek/Desktop/IT/sorgu_sonuclari.xlsx";
 
         FileInputStream fis = new FileInputStream(path);
 
         Workbook wb = WorkbookFactory.create(fis);
 
-        Sheet sheet = wb.getSheet(sayfa);    //yeni sayfa oluşturabiliriz her seferinde veya sosyal adında bir sheet tanımlayıp her seferinde "sosyal" e kaydedebiliriz..
+        Sheet sheet = wb.getSheet("sayfa");    //yeni sayfa oluşturabiliriz her seferinde veya sosyal adında bir sheet tanımlayıp her seferinde "sosyal" e kaydedebiliriz..
 
         Row row = sheet.createRow(satir - 1);
 
