@@ -1,14 +1,14 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
-import utilities.TestBase;
 
 import java.util.Iterator;
 import java.util.Set;
 
-public class T22_WindowsHandleHomework3  extends TestBase {
+public class T22_WindowsHandleHomework3  extends Base {
  /*
     go to url : https://testproject.io/
     Selenium’s 4 newWindow() method to open a new Window for TestProject’s Blog page.

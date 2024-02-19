@@ -1,16 +1,17 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import utilities.TestBase;
+
 
 import java.util.List;
 
-public class T15_DropdownHomework2 extends TestBase {
+public class T15_DropdownHomework2 extends Base {
     /*
      Launch the browser.
      Open "https://demoqa.com/select-menu".

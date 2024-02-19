@@ -1,16 +1,16 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
-import utilities.TestBase;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class T20_WindowHandleHomework1 extends TestBase {
+public class T20_WindowHandleHomework1 extends Base {
     /*
         Go to URL: https://www.toolsqa.com/selenium-webdriver/window-handle-in-selenium/
         Print the existing windowHandles ids by clicking all the links on the page.

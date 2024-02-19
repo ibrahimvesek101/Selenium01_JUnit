@@ -1,14 +1,13 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.TestBase;
 
-public class T24_ActionsHomework1 extends TestBase {
+public class T24_ActionsHomework1 extends Base {
 /*
     Go to URL: http://demo.guru99.com/test/drag_drop.html
     Drag and drop the BANK button to the Account section in DEBIT SIDE
@@ -53,6 +52,7 @@ public class T24_ActionsHomework1 extends TestBase {
         Assert.assertTrue(perfectTxt.isDisplayed());
     }
 }
+
 
 
 

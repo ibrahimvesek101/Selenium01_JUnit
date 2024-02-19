@@ -1,12 +1,12 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.TestBase;
 
-public class T26_ActionsHomework3 extends TestBase {
+public class T26_ActionsHomework3 extends Base {
 
 /*
     Go to URL: https://foundation.zurb.com/sites/docs/v/5.5.3/components/range_slider.html

@@ -1,15 +1,15 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
 
 import java.util.List;
 
-public class T11_RadioButtonHomework extends TestBase {
+public class T11_RadioButtonHomework extends Base {
     /*
     Go to URL: https://demoqa.com/radio-button
     Soruya verilen 3 seçeneğin de seçilme durumlarını doğrulayınız.

@@ -1,14 +1,14 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import utilities.TestBase;
 import java.util.List;
 
-public class T14_DropdownHomework1 extends TestBase {
+public class T14_DropdownHomework1 extends Base {
     /*
     Go to URL: https://the-internet.herokuapp.com/dropdown
     Create method selectByIndexTest and Select Option 1 using index .

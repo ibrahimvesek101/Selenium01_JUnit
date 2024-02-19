@@ -1,15 +1,15 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class T18_IframeHomework1 extends TestBase {
+public class T18_IframeHomework1 extends Base {
     /*
     https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/ sitesine gidiniz.
     Web sitesini maximize yapınız.

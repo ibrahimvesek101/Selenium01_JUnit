@@ -1,10 +1,10 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.TestBase;
 
-public class T19_IframeHomework2 extends TestBase {
+public class T19_IframeHomework2 extends Base {
     /*
     Go to URL: http://demo.guru99.com/test/guru99home/
     Find the number of iframes on the page.

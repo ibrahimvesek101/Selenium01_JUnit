@@ -1,14 +1,14 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
 
 import java.util.List;
 
-public class T17_Alerts extends TestBase {
+public class T17_Alerts extends Base {
     /*
     Go to URL: http://demo.automationtesting.in/Alerts.html
     Click "Alert with OK" and click 'click the button to display an alert box:’

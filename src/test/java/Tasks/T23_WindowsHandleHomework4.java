@@ -1,15 +1,15 @@
-package tasks;
+package Tasks;
 
+import Utilities.Base;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
 
 import java.util.Iterator;
 import java.util.Set;
 
-public class T23_WindowsHandleHomework4 extends TestBase {
+public class T23_WindowsHandleHomework4 extends Base {
 
     /*
     Go to URL: https://demoqa.com/browser-windows
